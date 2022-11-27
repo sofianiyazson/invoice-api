@@ -1,0 +1,61 @@
+{
+  "projects": [
+    {
+      "id": 1669370382927,
+      "taskName": "test",
+      "projectName": "test",
+      "color": "#000000",
+      "time": "00:00:00",
+      "date": "2022-11-25"
+    },
+    {
+      "id": 1669570798664,
+      "taskName": "Learn Typescript",
+      "projectName": "Become Fullstack-developer",
+      "color": "#000000",
+      "time": "00:00:00",
+      "date": "2022-11-27"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1669371066022,
+      "projectName": "test",
+      "invoice": "10",
+      "taskName": "Food Fetching",
+      "color": "#000000",
+      "date": "2022-11-25",
+      "time": "00:35:06"
+    }
+  ],
+  "invoices": [
+    {
+      "status": "PAID",
+      "createdDate": "24-11-2022",
+      "dueDate": "24-12-2022",
+      "amount": "50.75",
+      "customerName": "Sofia",
+      "id": 10
+    },
+    {
+      "status": "PAID",
+      "createdDate": "24-11-2022",
+      "dueDate": "24-12-2022",
+      "amount": "1.77",
+      "customerName": "Sofia",
+      "id": 14
+    },
+    {
+      "status": "NOT PAID",
+      "createdDate": "25-11-2022",
+      "dueDate": "25-12-2022",
+      "amount": "34.06",
+      "customerName": "Sofia",
+      "taskCreationDate": "2022-11-25",
+      "invoice": "100",
+      "taskName": "Get the certification for Typescript on CodeAcademy",
+      "time": "00:20:26",
+      "id": 25
+    }
+  ]
+}
