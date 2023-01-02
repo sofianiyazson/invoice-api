@@ -1,61 +1,324 @@
 {
   "projects": [
     {
-      "id": 1669370382927,
-      "taskName": "test",
-      "projectName": "test",
+      "projectName": "p1",
       "color": "#000000",
-      "time": "00:00:00",
-      "date": "2022-11-25"
+      "date": "2022-12-23",
+      "id": 1
     },
     {
-      "id": 1669570798664,
-      "taskName": "Learn Typescript",
-      "projectName": "Become Fullstack-developer",
-      "color": "#000000",
-      "time": "00:00:00",
-      "date": "2022-11-27"
+      "projectName": "p2",
+      "color": "#b70606",
+      "date": "2022-12-23",
+      "id": 2
+    },
+    {
+      "projectName": "p3",
+      "color": "#cfde02",
+      "date": "2022-12-23",
+      "id": 3
     }
   ],
   "tasks": [
     {
-      "id": 1669371066022,
-      "projectName": "test",
-      "invoice": "10",
-      "taskName": "Food Fetching",
+      "id": 2,
+      "projectId": "2",
+      "invoice": "220",
+      "taskName": "tast2",
       "color": "#000000",
-      "date": "2022-11-25",
-      "time": "00:35:06"
+      "date": "2022-12-23",
+      "time": "00:34:08"
+    },
+    {
+      "id": 3,
+      "projectId": "3",
+      "invoice": "330",
+      "taskName": "tast3",
+      "color": "#000000",
+      "date": "2022-12-23",
+      "time": "00:11:38"
     }
   ],
   "invoices": [
     {
       "status": "PAID",
-      "createdDate": "24-11-2022",
-      "dueDate": "24-12-2022",
-      "amount": "50.75",
+      "createdDate": "23-12-2022",
+      "dueDate": "23-01-2023",
       "customerName": "Sofia",
-      "id": 10
+      "amount": "72.42",
+      "tasks": [
+        {
+          "id": 1671819503646,
+          "projectId": "2",
+          "invoice": "220",
+          "taskName": "tast23223",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "00:19:45",
+          "amount": "72.42"
+        }
+      ],
+      "project": {
+        "projectName": "p222",
+        "color": "#000000",
+        "date": "2022-12-23",
+        "id": 2
+      },
+      "id": 5
     },
     {
       "status": "PAID",
-      "createdDate": "24-11-2022",
-      "dueDate": "24-12-2022",
-      "amount": "1.77",
-      "customerName": "Sofia",
-      "id": 14
+      "createdDate": "23-12-2022",
+      "dueDate": "23-01-2023",
+      "customerName": "Namn",
+      "amount": "8.86",
+      "tasks": [
+        {
+          "id": 1671819468661,
+          "projectId": "1",
+          "invoice": "220",
+          "taskName": "tast1",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "00:02:25",
+          "amount": "8.86"
+        }
+      ],
+      "project": {
+        "projectName": "p1",
+        "color": "#000000",
+        "date": "2022-12-23",
+        "id": 1
+      },
+      "id": 6
+    },
+    {
+      "status": "PAID",
+      "createdDate": "23-12-2022",
+      "dueDate": "23-01-2023",
+      "customerName": "Name1",
+      "amount": "15.16",
+      "tasks": [
+        {
+          "id": 1671820077532,
+          "projectId": "1",
+          "invoice": "110",
+          "taskName": "Name1",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "00:08:16",
+          "amount": "15.16"
+        }
+      ],
+      "project": {
+        "projectName": "p1",
+        "color": "#000000",
+        "date": "2022-12-23",
+        "id": 1
+      },
+      "id": 7
+    },
+    {
+      "status": "PAID",
+      "createdDate": "23-12-2022",
+      "dueDate": "23-01-2023",
+      "customerName": "Sofsof",
+      "amount": "21.02",
+      "tasks": [
+        {
+          "id": 1671820124075,
+          "projectId": "1",
+          "invoice": "220",
+          "taskName": "task",
+          "color": "#ec0909",
+          "date": "2022-12-23",
+          "time": "00:05:44",
+          "amount": "21.02"
+        }
+      ],
+      "project": {
+        "projectName": "p1",
+        "color": "#000000",
+        "date": "2022-12-23",
+        "id": 1
+      },
+      "id": 8
+    },
+    {
+      "status": "PAID",
+      "createdDate": "23-12-2022",
+      "dueDate": "23-01-2023",
+      "customerName": "SOff",
+      "amount": "119.41",
+      "tasks": [
+        {
+          "id": 1671820189300,
+          "projectId": "2",
+          "invoice": "220",
+          "taskName": "task",
+          "color": "#b7920b",
+          "date": "2022-12-23",
+          "time": "00:07:18",
+          "amount": "26.77"
+        },
+        {
+          "id": 1671820270371,
+          "projectId": "2",
+          "invoice": "10",
+          "taskName": "task",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "00:01:16",
+          "amount": "0.21"
+        },
+        {
+          "id": 1671820403587,
+          "projectId": "2",
+          "invoice": "550",
+          "taskName": "task",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "00:10:05",
+          "amount": "92.43"
+        }
+      ],
+      "project": {
+        "projectName": "p2",
+        "color": "#b70606",
+        "date": "2022-12-23",
+        "id": 2
+      },
+      "id": 9
     },
     {
       "status": "NOT PAID",
-      "createdDate": "25-11-2022",
-      "dueDate": "25-12-2022",
-      "amount": "34.06",
+      "createdDate": "23-12-2022",
+      "dueDate": "23-01-2023",
+      "customerName": "Soofsof",
+      "amount": "106.07",
+      "tasks": [
+        {
+          "id": 1,
+          "projectId": "1",
+          "invoice": "1110",
+          "taskName": "task",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "00:05:44",
+          "amount": "106.07"
+        }
+      ],
+      "project": {
+        "projectName": "p1",
+        "color": "#000000",
+        "date": "2022-12-23",
+        "id": 1
+      },
+      "id": 10
+    },
+    {
+      "status": "NOT PAID",
+      "createdDate": "23-12-2022",
+      "dueDate": "23-01-2023",
+      "customerName": "Sof",
+      "amount": "168.35",
+      "tasks": [
+        {
+          "id": 1,
+          "projectId": "1",
+          "invoice": "2220",
+          "taskName": "task",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "00:04:33",
+          "amount": "168.35"
+        }
+      ],
+      "project": {
+        "projectName": "p1",
+        "color": "#000000",
+        "date": "2022-12-23",
+        "id": 1
+      },
+      "id": 11
+    },
+    {
+      "status": "NOT PAID",
+      "createdDate": "23-12-2022",
+      "dueDate": "23-01-2023",
+      "customerName": "Sof",
+      "amount": "3049.08",
+      "tasks": [
+        {
+          "id": 2,
+          "projectId": "2",
+          "invoice": "44440",
+          "taskName": "task",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "00:04:07",
+          "amount": "3049.08"
+        }
+      ],
+      "project": {
+        "projectName": "p2",
+        "color": "#b70606",
+        "date": "2022-12-23",
+        "id": 2
+      },
+      "id": 12
+    },
+    {
+      "status": "NOT PAID",
+      "createdDate": "23-12-2022",
+      "dueDate": "23-01-2023",
+      "customerName": "Sof",
+      "amount": "25.67",
+      "tasks": [
+        {
+          "id": 3,
+          "projectId": "3",
+          "invoice": "330",
+          "taskName": "task",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "00:04:40",
+          "amount": "25.67"
+        }
+      ],
+      "project": {
+        "projectName": "p3",
+        "color": "#cfde02",
+        "date": "2022-12-23",
+        "id": 3
+      },
+      "id": 13
+    },
+    {
+      "status": "NOT PAID",
+      "createdDate": "02-01-2023",
+      "dueDate": "02-02-2023",
       "customerName": "Sofia",
-      "taskCreationDate": "2022-11-25",
-      "invoice": "100",
-      "taskName": "Get the certification for Typescript on CodeAcademy",
-      "time": "00:20:26",
-      "id": 25
+      "amount": "111.83",
+      "tasks": [
+        {
+          "id": 1,
+          "projectId": "1",
+          "invoice": "110",
+          "taskName": "tast1",
+          "color": "#000000",
+          "date": "2022-12-23",
+          "time": "01:01:00",
+          "amount": "111.83"
+        }
+      ],
+      "project": {
+        "projectName": "p1",
+        "color": "#000000",
+        "date": "2022-12-23",
+        "id": 1
+      },
+      "id": 14
     }
   ]
 }
